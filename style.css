@@ -1,0 +1,136 @@
+.navbar{
+    background-color: black !important;
+    padding: 20px;
+    color: white !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mybtn{
+
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.Elevate{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.get-started{
+    padding: 12px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: none !important;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+}
+.section-two{
+    background-color: black;
+    color: white;
+    margin-top:120px ;
+    height: 70vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile{
+    padding: 10px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+@media (max-width: 575.98px) {
+    .profile {
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-gap: 10px; 
+    }
+
+    .profilepic {
+       
+        width: 100%;
+        border-radius: 100px;
+    }
+
+    .profile-detailes {
+        width: 100%;
+    }
+}
+.image{
+    border: 40px;
+    border: 100% !important;
+}
+
+h6{
+    font-weight: bold;
+}
+
+.signup-section{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+input{
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    border: 2px solid black;
+}
+
+.signUpbtn{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+
+}
+
+.footer{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+
+}
+
+.return{
+    float: right;
+    clear: both;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background:transparent;
+    
+
+}
+
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+    transition: 0.5s;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li:hover{
+    color: grey;
+
+}
+h5{
+    /* text-decoration: underline; */
+    margin-bottom:10px;
+    font-weight: bold;
+}
