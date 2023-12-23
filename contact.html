@@ -19,17 +19,45 @@
         <div class="container-md">
           <h3 class="text-white w-10">Delibrate <br> Intentions LLC</h3>
         </div>
-        <div>
+        <div class="toggle-btn">
             <button class="btn mybtn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
               </svg></button>
         </div>
     </nav>
     <!-- First section -->
-    <h1>Contact Page</h1>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ipsum nostrum molestiae laudantium earum cupiditate aliquid? Error ratione maiores delectus molestiae perferendis, voluptatem obcaecati adipisci modi vitae inventore corporis ut reiciendis doloribus deleniti dignissimos aliquid deserunt distinctio iusto nisi. Quam, mollitia natus quo dolore voluptate id, ducimus dicta ad, nobis deserunt voluptates odio repellendus deleniti molestias ipsa vel recusandae maiores exercitationem expedita molestiae in corrupti. Inventore, blanditiis. Architecto nostrum, sit quod dolor modi enim facere aperiam reprehenderit, magnam facilis omnis assumenda vel obcaecati est a deserunt qui provident labore aliquam itaque blanditiis in! Veritatis dolorum accusantium mollitia, culpa modi soluta itaque facilis officiis deleniti quod voluptatibus cumque asperiores iste nisi, aliquid ipsum nesciunt ex rem cupiditate, enim commodi ab assumenda. Facere eligendi quos eum, ea molestias officia dolores consequuntur similique deserunt quisquam quae nemo cupiditate dicta placeat alias enim repellendus sunt veritatis iste ullam ipsam aperiam distinctio doloremque voluptates! Quasi, molestiae mollitia. Praesentium ab error velit placeat veniam voluptatum repudiandae quam rem consectetur voluptatibus, animi culpa temporibus, totam, non odit inventore? Consectetur dolorem alias laborum illum voluptas dolores consequatur quia exercitationem. Porro vitae repellat blanditiis necessitatibus sequi, excepturi quos doloribus quaerat accusamus tenetur natus nisi delectus, soluta hic sint dicta.
-    </p>
+    
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <h1 class="text-center">Send Us a Message</h1>
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <form action="">
+                    <div class="form-group">
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" class="form-control" placeholder="example@gmail.com" id="">
+                        <!-- I did not inclued required because i hope to write backend validation -->
+                    </div>
+                    <div class="form-group mt-2">
+                        <label for="phone">Phone</label><br>
+                        <input type="phone" name="phpne" placeholder="+2348144060267" class="form-control" id="">
+                        <!-- I did not inclued required because i hope to write backend validation -->
+
+                    </div>
+                    <div class="form-group mt-2">
+                        <label for="message">Your Message</label>
+                       <textarea name="" id="" class="form-control" cols="30" rows="10">
+                        Your message here...
+                       </textarea>
+                       <button type="submit" class="signUpbtn form-control mt-2">Send Message <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-messenger" viewBox="0 0 16 16">
+                        <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76m5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+                      </svg></span></button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
 
 
     <!-- footer -->
